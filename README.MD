@@ -1,3 +1,5 @@
+IMDB SCRAPER - WORDPRESS IMPORTER - MAGNET CRAWLER
+
 This is a wordpress theme! (UPG1)
 Upload it to a clean wordpress installation with no posts and follow instructions in the theme's control panel.
 
