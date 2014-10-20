@@ -59,6 +59,7 @@ function scrapmagnets($theurl,$encoding) {
     $matches = $matches[1];
   //  $list = array();
 	echo '<ul>';
+	$i =0;
     foreach($matches as $var)
     {    	
 
@@ -77,8 +78,17 @@ function scrapmagnets($theurl,$encoding) {
 	$dtitle = str_replace("%2", "-", $dtitle);
 	$dtitle = substr($dtitle, 0, -3);
 	
-   echo "<li><a href='".$dtarget."' title='Download ".$dtitle." via magnet link'>".$dtitle."</a></li>"; 
-     
+		if ($i < 5) {
+	$sUrl = file_get_contents('http://api.adf.ly/api.php?key=9a283dafe534bddccc556153a37ed678&uid=1608068&advert_type=int&domain=go.x-mad.com&url='.$dtarget.'');
+ 
+   echo  "<li><a href='".$sUrl."' title='Download ".$dtitle." via magnet link'>".$dtitle."</a></li>";
+	}
+	else {
+	//	echo "<li><a href='".$dtarget."' title='Download ".$dtitle." via magnet link'>".$dtitle."</a></li>";
+	}
+	
+//   echo "<li><a href='".$dtarget."' title='Download ".$dtitle." via magnet link'>".$dtitle."</a></li>"; 
+   $i++  ;
     }
 	}
 

@@ -7,7 +7,7 @@
 <div class="singleleftwrapper">
 <div class="singleleft"> 
 <div class="top"> 
-<h1><?php the_title(); ?> <?php echo get_post_meta( $post->ID,'year','true') ?> - <?php echo get_post_meta( $post->ID,'tagline','true') ?><strong></strong></h1></div>
+<h1><?php the_title(); ?> <?php echo get_post_meta( $post->ID,'year','true') ?> - <?php echo get_post_meta( $post->ID,'tagline','true') ?> Watch Live Now<strong></strong></h1></div>
 
 <div class="thebody"> 
 
@@ -114,5 +114,5 @@ echo trim($output, $separator);
   <div class="cl">&nbsp;</div>
 </div>
 <!-- end Main -->
-
+<!-- begin adf.ly conversion tracking --><img src="http://adf.ly/ad/conv?aid=474528" width="1" height="1" border="0" hspace="0" vspace="0" /><!-- end adf.ly conversion tracking -->
 <?php include (TEMPLATEPATH . '/footer.php'); ?>
