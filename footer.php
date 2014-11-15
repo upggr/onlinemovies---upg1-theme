@@ -9,7 +9,7 @@
       responsible for what other people upload to 3rd party sites. We urge all copyright owners, to recognize that the links contained within this site<br>
       are located somewhere else on the web. If you have any legal issues<br>
       please contact appropriate media file owners / hosters.</p>
-		<p>Would you like a site like this ? <a href="http://adf.ly/sjE4l" target="_blank">Download it !</a></p>
+		<p>Would you like a site like this ? <a href="http://adf.ly/sjPmW" target="_blank">Download it !</a></p>
 	</div>
 	<!-- end Footer -->
 </div>

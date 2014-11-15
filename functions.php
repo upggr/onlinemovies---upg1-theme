@@ -52,19 +52,16 @@ remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 // x-mad code
 
-scrapmagnets($url,$encoding);
+//scrapmagnets($url,$encoding);
 function scrapmagnets($theurl,$encoding) {
 	$var = graburl($theurl,$encoding);    
     preg_match_all ("/a[\s]+[^>]*?href[\s]?=[\s\"\']+(.*?)[\"\']+.*?>"."([^<]+|.*?)?<\/a>/",$var, $matches);   												    
     $matches = $matches[1];
-  //  $list = array();
 	echo '<ul>';
 	$i =0;
     foreach($matches as $var)
     {    	
-
-	if (strpos($var,'magnet') !== false) {
-	
+	if (strpos($var,'magnet') !== false) {	
     $dtarget= $var;
 	$dtitle =  explode( '=', $dtarget );
 	$dtitle =  $dtitle[2];
