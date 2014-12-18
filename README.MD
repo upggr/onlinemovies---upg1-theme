@@ -28,12 +28,5 @@ This will work on any enviroment. I have run it on mutliple server versions on d
 If you receive an error about curl_opt and open base dirs, make sure your php.ini does not limit your base dir to anything (open_basedir = none)
 
 
-### To get you started :
-
-1. Traffic : Create a youtube account and then fill it with trailers using a service like [video swipper](http://videoswiper.net/r/upggr) (amazing traffic)
-2. A great affiliate program with the best conversion ratio for this kind of websites : [Affbeat](http://affbeat.com/affiliates/signup.php?a_aid=5788g1795s84s) (about 24$ per refferal, conversion rate about 1/1000 !!!!!
-3. You can host your site on [digital ocean](https://www.digitalocean.com/?refcode=6e83df0e17c6) , just fire a wordpress droplet for 10$ a month. Then enable supercache and [cloudflare](http://cloudflare.com/). With this configuration you will be able to to withstand about 500 concurrent users easy!
-
-
 
 
